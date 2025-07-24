@@ -28,34 +28,22 @@ cd medical-cost-prediction
 2. Install Dependencies
 It's recommended to use a virtual environment:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 3. Run the App
-bash
-Copy
-Edit
 streamlit run app.py
+
 📊 Model Evaluation
 The app trains and compares the following regression models:
-
 Linear Regression
-
 Ridge Regression
-
 Lasso Regression
-
 Random Forest Regressor
-
 XGBoost Regressor ✅ (used for final predictions)
 
 Metrics used for evaluation:
-
 RMSE (Root Mean Squared Error)
-
 MAE (Mean Absolute Error)
-
 R² Score
 
 Bar charts are provided for RMSE and R² across all models.
