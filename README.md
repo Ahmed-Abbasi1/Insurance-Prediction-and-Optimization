@@ -82,24 +82,15 @@ Add your own screenshots to demonstrate functionality.
 📋 Requirements
 Install all dependencies via:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 Main packages used:
-
 pandas
-
 numpy
-
 scikit-learn
-
 xgboost
-
 matplotlib
-
 shap
-
 streamlit
 
 👨‍💻 Author
