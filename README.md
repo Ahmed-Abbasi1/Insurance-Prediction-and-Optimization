@@ -13,20 +13,7 @@ This Streamlit web application predicts individual medical insurance costs based
 - 🌍 Global feature importance visualization using SHAP summary plot
 - 🧪 Train/Test evaluation using `sklearn` and `xgboost`
 - 🛠️ Modular code: structured with separate scripts for data loading, model training, and evaluation
-
----
-
-## 📂 Project Structure
-
-├── app.py # Streamlit web app
-├── src/
-│ ├── data_loader.py # Data loading, preprocessing, and splitting
-│ └── model.py # Model training and evaluation
-├── data/
-│ └── insurance.csv # Dataset file (if using local)
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
+  
 
 ---
 
